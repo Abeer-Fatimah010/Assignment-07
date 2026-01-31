@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pH Scale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaeaea;
+            padding: 30px;
+        }
+
+        .box {
+            width: 720px;
+            margin: auto;
+            background: white;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.25);
+        }
+
+        h2 {
+            background: #ddd;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .row {
+            height: 32px;
+            padding-left: 12px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: white;
+        }
+
+        /* ALKALINE (Blue → Cyan → Purple) */
+        .ph14 { background: #0b3c5d; }
+        .ph13 { background: #145a8d; }
+        .ph12 { background: #1f78b4; }
+        .ph11 { background: #2e9cca; }
+        .ph10 { background: #4fc3dc; }   /* Cyan */
+        .ph9  { background: #7ed6df; color:#000; }
+        .ph8  { background: #9b59b6; }   /* Purple */
+
+        /* NEUTRAL */
+        .ph7  {
+            background: #2ecc71;
+            font-weight: bold;
+        }
+
+        /* ACIDIC (Yellow → Orange → Red) */
+        .ph6  { background: #f9e79f; color:#000; } /* Yellow */
+        .ph5  { background: #f7dc6f; color:#000; }
+        .ph4  { background: #f5b041; }
+        .ph3  { background: #eb984e; }   /* Light Orange */
+        .ph2  { background: #e74c3c; }
+        .ph1  { background: #cb4335; }
+        .ph0  { background: #922b21; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>pH Scale</h2>
+
+    <div class="row ph14">14.0 VERY ALKALINE</div>
+    <div class="row ph13">13.0</div>
+    <div class="row ph12">12.0</div>
+    <div class="row ph11">11.0</div>
+    <div class="row ph10">10.0</div>
+    <div class="row ph9">9.0</div>
+
+    <div class="row ph7">7.0 NEUTRAL</div>
+
+    <div class="row ph6">6.0</div>
+    <div class="row ph5">5.0</div>
+    <div class="row ph4">4.0</div>
+    <div class="row ph3">3.0</div>
+    <div class="row ph2">2.0</div>
+    <div class="row ph1">1.0</div>
+    <div class="row ph0">0.0 VERY ACID</div>
+</div>
+
+</body>
+</html>
